@@ -1,0 +1,28 @@
+{
+  "name": "openui5_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ui5 build -a"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^1.9.0"
+  },
+  "dependencies": {
+    "@openui5/sap.m": "^1.70.0",
+    "@openui5/sap.ui.core": "^1.70.0",
+    "@openui5/sap.ui.layout": "^1.70.0",
+    "@openui5/sap.tnt": "^1.70.0",
+    "@openui5/themelib_sap_fiori_3": "^1.70.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esegeda/openui5_project.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/esegeda/openui5_project/issues"
+  },
+  "homepage": "https://github.com/esegeda/openui5_project#readme"
+}

@@ -1,0 +1,24 @@
+{
+	"_version": "1.0.0",
+	"sap.app": {
+		"id": "openui5.project",
+		"type": "application"
+	},
+	"sap.ui5": {
+		"dependencies": {
+			"minUI5Version": "1.60.0",
+			"libs": {
+				"sap.ui.core": {},
+                "sap.m": {},
+                "sap.ui.layout": {},
+                "sap.tnt": {}
+			}
+		},
+		"rootView": {
+			"viewName": "openui5.project.view.App",
+			"type": "XML",
+			"async": true,
+			"id": "app"
+		}
+	}
+}
